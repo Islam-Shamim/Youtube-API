@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <section class="mx-4">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <a class="btn btn-ghost text-xl"><img src="image/Logo.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li>
+                            <details>
+                                <summary class="bg-gray-200 text-xl ">Sort by view</summary>
+                                <ul>
+                                    <li><a class="p-2 bg-gray-100 m-2">All</a></li>
+                                    <li><a class="p-2 bg-gray-100 m-2">Music</a></li>
+                                    <li><a class="p-2 bg-gray-100 m-2">Comedy</a></li>
+                                    <li><a class="p-2 bg-gray-100 m-2">Drawing</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn mr-4 bg-red-400 px-8 py-2 text-xl font-bold">Blog</a>
+                </div>
+            </div>
+            <div class="border-b-4 border-dotted"></div>
+        </section>
+    </header>
+    <main>
+        <!-- button section  -->
+        <section class="text-center my-4">
+            <button class="bg-gray-200 px-4 py-2 mr-2 rounded-lg">All</button>
+            <button class="bg-gray-200 px-4 py-2 mr-2 rounded-lg">Music</button>
+            <button class="bg-gray-200 px-4 py-2 mr-2 rounded-lg">Comedy</button>
+            <button class="bg-gray-200 px-4 py-2 mr-2 rounded-lg">Drawing</button>
+        </section>
+        <!-- card section  -->
+        <section>
+            <div id="video-container" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
